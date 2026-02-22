@@ -8,4 +8,9 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
 .DS_Store
