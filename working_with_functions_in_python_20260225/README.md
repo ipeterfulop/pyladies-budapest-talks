@@ -2,7 +2,16 @@
 
 Ez az anyag a Python függvényeinek használatát mutatja be magyar nyelven, gyakorlati példákkal. Egyszerű saját függvényektől indulva érintjük a pozicionális (positional) és kulcsszavas (keyword) argumentumokat, majd rekurzív, illetve magasabb rendű függvényekre és dekorátorokra is kitérünk.
 
+## Tartalomjegyzék
+
+- [Notebookok tartalma](#notebookok-tartalma)
+  - [01 - Már használod a beépített függvényeket](#01---már-használod-a-beépített-függvényeket)
+  - [02 - Saját függvények létrehozása és hatókör (scope)](#02-saját-függvények-létrehozása-és-hatókör-scope)
+- [Környezet előkészítése](#környezet-előkészítése)
+
+
 ## Notebookok tartalma
+
 
 ### 01 - Már használod a beépített függvényeket
 A függvény nem más, mint egy újrahasznosítható kódrészlet, amelyet egyszer megírunk, nevet adunk neki, és annyiszor hívjuk meg, ahányszor szükségünk van rá. Ez a notebook megmutatja, hogy a Python beépített függvényeit valójában már a legelső lépésektől használjuk – és hogyan fedezhetjük fel a többit is.
@@ -14,6 +23,31 @@ A függvény nem más, mint egy újrahasznosítható kódrészlet, amelyet egysz
 - Információszerzés beépített függvényekről (`help()`, hivatalos dokumentáció)
 - A `builtins` modul felfedezése (`dir(builtins)`, `help(__builtins__)`)
 - Haladó megközelítés: az `inspect` modul használata a beépített függvények és dokumentációjuk kilistázásához
+
+
+
+### 02. Saját függvények létrehozása és hatókör (scope)
+Ebben a notebookban lépésről lépésre haladunk: az egyszerű `print()`-t használó függvénytől eljutunk az alapértelmezett paraméterekig és a típusjelölésig (type hinting), végül pedig megvizsgáljuk, miért fontos tudni, hogy egy változó hol „él" – vagyis mi az a hatókör (scope).
+
+**Témák:**
+
+**2.1. Saját függvények létrehozása**
+- `koszonj_neki()` – Az első saját függvényed
+- `mond_meg_hogy_paros_e()` – Döntés a függvényen belül (`if`/`else`)
+- `paros_e()` – Visszatérési érték (`return`) és típusjelölés (type hint)
+- `szamold_meg_a_maganhangzokat()` – String bejárás és számláló
+- `ugorj_a_listaban()` – Alapértelmezett paraméterek
+- Típusjelölés: hasznos, de nem kötelező
+
+**2.2. Változók hatóköre (scope) és a LEGB szabály**
+- Bevezető probléma: miért nem működik?
+- Mi az a hatókör?
+- A LEGB szabály – Hol keresi a Python a változókat?
+  - **L**okális, **E**nclosing (befoglaló), **G**lobális, **B**eépített hatókör
+- LEGB összefoglaló
+
+A notebook végén gyakorló feladatokat és megoldásokat is találsz mindkét témakörhöz.
+
 
 ## Környezet előkészítése
 
