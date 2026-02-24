@@ -7,6 +7,7 @@ Ez az anyag a Python függvényeinek használatát mutatja be magyar nyelven, gy
 - [Notebookok tartalma](#notebookok-tartalma)
   - [01 - Már használod a beépített függvényeket](#01---már-használod-a-beépített-függvényeket)
   - [02 - Saját függvények létrehozása és hatókör (scope)](#02-saját-függvények-létrehozása-és-hatókör-scope)
+  - [03 - Rekurzió. Tetszőleges számú pozícionális és név szerinti paraméter](#03---rekurzió-tetszőleges-számú-pozícionális-és-név-szerinti-paraméter)
 - [Környezet előkészítése](#környezet-előkészítése)
 
 
@@ -47,6 +48,35 @@ Ebben a notebookban lépésről lépésre haladunk: az egyszerű `print()`-t has
 - LEGB összefoglaló
 
 A notebook végén gyakorló feladatokat és megoldásokat is találsz mindkét témakörhöz.
+
+### 03 - Rekurzió. Tetszőleges számú pozícionális és név szerinti paraméter
+Ebben a notebookban a függvények haladóbb használatával ismerkedünk meg: beágyazott függvényekkel, rekurzióval, valamint a rugalmas paraméterkezeléssel (`*args`, `**kwargs`).
+
+**Témák:**
+
+**3.1. Függvény definiálása másik függvény törzsében**
+- Belső függvények (*nested function*) – mikor és miért érdemes használni
+
+**3.2. Rekurzív függvények**
+- Mi a rekurzió?
+- Faktoriális számítása rekurzívan
+- Fibonacci-számok rekurzív és iteratív megközelítéssel
+- Gyakorló feladatok
+
+**3.3. Iterálható objektumok kicsomagolása (*unpacking*)**
+- Tuple és lista kicsomagolása változókba
+- A `*` operátor használata kicsomagoláshoz
+
+**3.4. Változó számú pozicionális paraméter (`*args`)**
+- Tetszőleges számú argumentum fogadása
+- Gyakorlati példák
+
+**3.5. Változó számú név szerinti paraméter (`**kwargs`)**
+- Kulcsszavas argumentumok dinamikus kezelése
+- `*args` és `**kwargs` kombinálása
+
+**Bónusz: AI-asszisztált tanulás**
+- A [`prompts/`](./prompts/) mappában találsz prompt sablonokat, amelyekkel hatékonyabban tanulhatsz Pythont nagy nyelvi modellek és ágensek (pl. ChatGPT, Claude) segítségével
 
 
 ## Környezet előkészítése
